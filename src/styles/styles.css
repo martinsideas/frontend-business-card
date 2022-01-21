@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+body {
+  background-color: #23252C;
+}
+
+.container {
+  width: 80vmin;
+  height: 200px;
+  margin: auto;
+  background-color: #1A1B21;
+}
+
+.container .header .profile_photo {
+  width: 100%;
+  height: auto;
+}
+
+.container .header .gh-ic-btn {
+  width: 40px;
+}
+
+.container .footer .tw-ic {
+  width: 40px;
+}
+
+.container .footer .ig-ic {
+  width: 40px;
+}
+
+.container .footer .gh-ic {
+  width: 40px;
+}
+/*# sourceMappingURL=styles.css.map */

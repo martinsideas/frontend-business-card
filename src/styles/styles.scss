@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+body {
+    background-color: #23252C;
+}
+
+
+.container {
+    width: 80vmin;
+    height: 200px;
+    margin:  auto;
+    background-color: #1A1B21;
+
+    .header {
+        .profile_photo {
+            width: 100%;
+            height: auto;
+        }
+        .gh-ic-btn {
+            width: 40px;
+        }
+    }
+
+    .main {}
+    
+    .footer {
+        .tw-ic {
+            width: 40px;
+        }
+        .ig-ic {
+            width: 40px;
+        }
+        .gh-ic {
+            width: 40px;
+        }
+    }
+}
