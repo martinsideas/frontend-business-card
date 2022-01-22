@@ -9,26 +9,74 @@ body{
 
 body {
     background-color: #23252C;
+    font-family: 'Inter', sans-serif;
 }
 
-
+#root{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container {
     width: 80vmin;
-    height: 200px;
-    margin:  auto;
+    height: auto;
     background-color: #1A1B21;
+    border-radius: 10px 10px 0 0;
 
     .header {
         .profile_photo {
             width: 100%;
-            height: auto;
+            height: 250px;
+            border-radius: 10px 10px 0 0;
         }
-        .gh-ic-btn {
-            width: 40px;
+        .name {
+            color: #fff;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0 5px 0;
+        }
+        .role {
+            color: #F3BF99;
+            text-align: center;
+            font-size: 14px;
+            margin: 0 0 8px 0;
+        }
+        .website {
+            color: #F5F5F5;
+            text-align: center;
+            display: block;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 0 0 10px 0;
+        }
+        .github-btn {
+            display: block;
+            margin: 0 auto;
+            padding: 6px 80px;
+            background-color: #fff;
+            color: #374151;
+            border-radius: 6px;
+            text-align: center;
+            .gh-ic-btn {
+                width: 20px;
+            }
+            .btn-text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p {
+                    margin: 0 4px;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+            }
         }
     }
 
-    .main {}
+    .main { }
     
     .footer {
         .tw-ic {
