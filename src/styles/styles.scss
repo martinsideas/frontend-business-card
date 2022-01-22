@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 100vh;
-}
 
 body {
     background-color: #23252C;
     font-family: 'Inter', sans-serif;
+    height: 100vh;
 }
 
 #root{
@@ -20,9 +18,10 @@ body {
 }
 .container {
     width: 80vmin;
+    max-width: 440px;
     height: auto;
     background-color: #1A1B21;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
 
     .header {
         .profile_photo {
@@ -75,18 +74,39 @@ body {
             }
         }
     }
-
-    .main { }
-    
-    .footer {
-        .tw-ic {
-            width: 40px;
+}
+.main {
+    padding: 0 20px;
+    h3 {
+        color: #F5F5F5;
+        font-size: 18px;
+    }
+    p {
+        color: #DCDCDC;
+        font-size: 14px;
+    }
+    .main-about {
+        h3 {
+            margin:30px 0 5px 0;
         }
-        .ig-ic {
-            width: 40px;
+        
+    }
+    .main-interests {
+        h3 {
+            margin: 15px 0 5px 0;
         }
-        .gh-ic {
-            width: 40px;
-        }
+    }
+}
+.footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    .tw-ic, .ig-ic, .gh-ic{
+        width: 30px;
+        margin: 0 20px;
     }
 }
